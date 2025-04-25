@@ -1,0 +1,19 @@
+{
+  "name": "mcp2",
+  "module": "index.ts",
+  "type": "module",
+  "private": true,
+  "devDependencies": {
+    "@types/bun": "latest",
+    "@types/express": "^5.0.1"
+  },
+  "peerDependencies": {
+    "typescript": "^5"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.10.2",
+    "express": "^5.1.0",
+    "googleapis": "^148.0.0",
+    "zod": "^3.24.3"
+  }
+}
