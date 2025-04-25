@@ -3,14 +3,14 @@ import  express  from 'express';
 import  {google }  from 'googleapis';
 
 const oAuth2Client = new google.auth.OAuth2(
-    "17018042898-1i55hu1b89kpq1nnubasb2k5qfdmultu.apps.googleusercontent.com",
-    "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",
+    "client_id",
+    "client_secret",
     "http://localhost:3000/auth/callback"
   );
 
 
   oAuth2Client.setCredentials({
-    access_token: 'ya29.a0AZYkNZi6mqOXNemFKw-_IzErWHvlNX48v9KDbqfkCq8Mw5ubu0_M_BPWfv0xzY975aIx-LmQy46AVUSBgWmr8xlwOrnSrXXDqmQhSNfTUwZCYzU7rqIKrmYo1NkQvf_yQfMYZ9B74BjFIo-5ZYNYjYyILOd3Lu58k6qXZrToaCgYKAfsSARcSFQHGX2Mis5_nfPgiSSpYN9xGgNlFLw0175',
+    access_token: 'access_token',
     scope: 'https://www.googleapis.com/auth/gmail.send https://www.googleapis.com/auth/gmail.readonly',
     token_type: 'Bearer',
     expiry_date: 1745530485961, 
